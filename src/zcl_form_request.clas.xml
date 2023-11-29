@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_FORM_REQUEST</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Zum erstellen und genehmigen von Formularanträgen</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>APPROVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Genehmigt den Antrag</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>BY_ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Selektiert den Antrag anhand der Id</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CURRENT_STEP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt den Genehmigungsschritt zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>FROM_EMPLOYEE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt alle Anträge des Mitarbeiters zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ID</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt die Id des Antrags zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erstellt einen neuen Antrag für Formulare</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NOTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Gibt die Notizen zum Antrag zurück</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REJECT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Lehnt den Antrag ab</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
